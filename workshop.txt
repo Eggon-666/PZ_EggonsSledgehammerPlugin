@@ -1,0 +1,14 @@
+version=1
+id=2643004415
+title=Eggon's Hotkeys: Sledgehammer
+description=Provides hotkey to equip sledgehammer and triggers demolishion cursor. If sledge is already equipped just triggers the cursor.
+description=
+description=Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2289454303]Eggon's Hotkeys[/url] mod to function.
+description=
+description=No initial keybinding is set - you need to set it yourself in the Keybinding menu in the [b]Eggon's Hotkeys[/b] section. I simply don't want to interfere with any bindings that you might have already.
+description=
+description=If you like this mod, hit the like button and check out [url=https://steamcommunity.com/profiles/76561198093590691/myworkshopfiles/?section=items&appid=108600]my other mods![/url] :)
+description=
+description=[img]https://i.imgur.com/cKVBRWw.gif[/img]
+tags=Build 41;Interface
+visibility=public
