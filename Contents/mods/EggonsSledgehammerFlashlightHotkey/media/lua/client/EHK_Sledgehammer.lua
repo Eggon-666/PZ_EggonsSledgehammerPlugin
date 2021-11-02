@@ -3,8 +3,8 @@ local sledgehammers = {
     ["Base.Sledgehammer2"] = true
 }
 
-function EHK.sledgeCursorInit(player, sledge)
-    local bo = ISDestroyCursor:new(player, false, sledge)
+local function sledgeCursorInit(self)
+    local bo = ISDestroyCursor:new(self.character, false, self.item)
     getCell():setDrag(bo, bo.player)
 end
 
@@ -37,7 +37,7 @@ local function equipSledge()
         player:Say("Where have I put my sledgehammer?")
         return
     end
-    local cursorAction = EHK.SledgeCursorAction:new(player, sledge, initCursor)
+    local cursorAction = EHK.SledgeCursorAction:new(player, sledge, sledgeCursorInit)
     ISTimedActionQueue.add(cursorAction)
 end
 
